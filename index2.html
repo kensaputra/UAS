@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+</style>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  </head>
+
+  <body>
+
+    
+    <div id="page-wraper">
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="assets/images/profile.png" alt="" /></a>
+            </div>
+            <div class="author-content">
+              <h4>USER</h4>
+              <span>(Work)</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">Inbox</a></li>
+                <li><a href="#section2">Sent</a></li>
+                <li><a href="#section4">Profile</a></li>
+                <li><a href="#section5">Send Message</a></li>
+                <li><a href="#section6">Setting</a></li>
+              </ul>
+            </nav>
+            <p></p>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+
+      <section class="section Inbox" data-section="section1">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Inbox</h2>
+            <div class="line-dec"></div>
+      
+                    
+
+
+            </div>
+
+            
+    
+        <div class="container">
+          <div class="section-heading">
+            <h2>Sent</h2>
+            <div class="line-dec"></div>
+
+            
+        <div class="container">
+          <div class="section-heading">
+            <h2>Profile</h2>
+            <div class="line-dec"></div>
+            <br>
+<br>
+          <p> Name : </p>
+
+          <button onclick="myFunction()">Edit Name</button>
+
+<p id="Name"></p>
+
+<script>
+function myFunction() {
+  let text;
+  let person = prompt("Please Edit your name:", "User");
+  if (person == null || person == "") {
+    text = "Your Name has not been changed";
+  } else {
+    text = "Hello " + person + "! Your Name has changed!";
+  }
+  document.getElementById("Name").innerHTML = text;
+}
+</script>
+
+<br>
+<br>
+
+
+          <p> Profile Picture</p>
+          <button button onclick="alert('Error! Try Again Later')">Edit Profile Picture</button>
+
+<br>
+<br>
+<br>
+          <p> Date of birth : </p>
+          <button button onclick="alert('Error! Try Again Later')">Add Date of Birth</button>
+
+          <br>
+<br>
+<br>
+          <p> Email : User@hellomail.com</p>
+            
+        <div class="container">
+          <div class="section-heading">
+            <h2>Send Message</h2>
+            <div class="line-dec"></div>
+
+          </div>
+          <div class="row">
+            <div class="right-content">
+              <div class="container">
+                <form id="contact" action="" method="post">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="name"
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Destination Mail..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                  
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input
+                          name="subject"
+                          type="text"
+                          class="form-control"
+                          id="subject"
+                          placeholder="Subject..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <textarea
+                          name="message"
+                          rows="6"
+                          class="form-control"
+                          id="message"
+                          placeholder="Your message..."
+                          required=""
+                        ></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>  
+                        <div class="btn-group-Send"></div>
+                        <button type="send"  class="button" button button onclick="alert('Message Send!')">Send Message</button>
+                      </fieldset>
+
+
+         <div class="container">
+            <div class="section-heading">
+            <h2>Setting</h2>
+            <div class="line-dec"></div>
+
+            <div class="btn-group-Setting">
+            <button button onclick="alert('You are logged out!')">Log Out</button>
+
+            
+              </div>
+            </div>
+          </div>
+        </div>
+        <p>Persyaratan · Privasi · Kebijakan Program</p>
+
+
+        <img src="assets/images/Logo.png" style="width:200px; height:200px;">
+      </section>
+    </div>
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+  
+</html>
+
+

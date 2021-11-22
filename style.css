@@ -1,0 +1,58 @@
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+.topnav a{
+    float: left ;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size : 20px;
+    justify-content: left;
+    margin: 0 5%;
+}
+.tombol-masuk{
+    justify-content: right;
+}
+.aboutUs{
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10%;
+}
+.company{
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 10%;
+    text-decoration: none;
+}
+.copyRight{
+    text-align:center;
+    text-decoration: none;
+    font-size: 12px;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.masuk{
+    text-align: center;
+    padding: 14px 16px;
+    margin 0 20%;
+    color: black;
+    text-decoration: none;
+}
+.SignUp{
+    text-align:center;
+    background-color: black;
+    color: white;
+}
+.SignIn{
+    text-align:center;
+    background-color: black;
+    color: white;
+}
